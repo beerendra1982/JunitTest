@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="397640af-568c-48d1-8f22-e13bbcc5aee3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="397640af-568c-48d1-8f22-e13bbcc5aee3" name="Default Changelist" comment="git commit --m &quot;test&quot;">
       <change beforePath="$PROJECT_DIR$/src/test/java/come/beeru/junit/ArithmeticOperationTestUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/come/beeru/junit/ArithmeticOperationTestUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/come/beeru/junit/StringUtilsTestUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/come/beeru/junit/StringUtilsTestUnit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2YziWF7MAmEfg9rNdIUYfmzqQzT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,7 +34,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilsTestUnit">
+  <component name="RunManager" selected="JUnit.ArithmeticOperationTestUnit.testConcatWithInput">
+    <configuration name="ArithmeticOperationTestUnit.testConcatWithInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="come.beeru.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="come.beeru.junit" />
+      <option name="MAIN_CLASS_NAME" value="come.beeru.junit.ArithmeticOperationTestUnit" />
+      <option name="METHOD_NAME" value="testConcatWithInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArithmeticOperationTestUnit.testConcatWithNullInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
@@ -64,22 +78,6 @@
       <option name="PACKAGE_NAME" value="come.beeru.junit" />
       <option name="MAIN_CLASS_NAME" value="come.beeru.junit.StringUtilsTestUnit" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilsTestUnit5.testConvertToDoubleWithNullArgument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.howtoprogram.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.howtoprogram.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.howtoprogram.junit5.StringUtilsTestUnit5" />
-      <option name="METHOD_NAME" value="testConvertToDoubleWithNullArgument" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArithmeticOperationTestUnit.testConcatWithInput" />
         <item itemvalue="JUnit.StringUtilsTestUnit" />
         <item itemvalue="JUnit.StringUtilsTestUnit.testConvertToDoubleOK" />
         <item itemvalue="JUnit.ArithmeticOperationTestUnit.testConcatWithNullInput" />
         <item itemvalue="JUnit.StringUtilsTestUnit.testConcatWithNullInput" />
-        <item itemvalue="JUnit.StringUtilsTestUnit5.testConvertToDoubleWithNullArgument" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +133,21 @@
       <option name="presentableId" value="Default" />
       <updated>1701534840009</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit --m &quot;test&quot;">
+      <created>1701539334253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701539334253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="git commit --m &quot;test&quot;">
+      <created>1701539454379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701539454379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +161,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit --m &quot;test&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit --m &quot;test&quot;" />
   </component>
 </project>
