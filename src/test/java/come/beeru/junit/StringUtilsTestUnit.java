@@ -10,17 +10,13 @@ public class StringUtilsTestUnit {
 
     @Test
     public void testConvertToDoubleOK() {
-        // Test case with the age is a numeric string
         String age = "1990";
         Double expAge = Double.valueOf(age);
         Double actual = StringUtils.convertToDouble(age);
-
         assertAll("Do many assertions.", () -> {
             assertNotNull(actual);
             assertEquals(expAge, actual);
         });
-
-        // Or Java 8 Lambdas style
 
         assertAll("Do many assertions.Java 8 Lambdas style", () -> {
             assertNotNull(actual, () -> "The actual is NULL");
@@ -32,11 +28,9 @@ public class StringUtilsTestUnit {
 
     @Test
     public void testConvertToDoubleWithNullArgument() {
-        // Test case with the age is null
         String age = null;
         Double actual = StringUtils.convertToDouble(age);
         assertNull(actual, "The actual is not null55");
-        // Java 8 Style
         assertNull(actual, () -> "The actual is not null");
     }
 
@@ -44,7 +38,6 @@ public class StringUtilsTestUnit {
 
     @Test
     public void testConvertToDoubleThrowException() {
-        // Test with the age is a non numeric string
         String age = "N/A";
         assertThrows(NumberFormatException.class, () -> {
             StringUtils.convertToDouble(age);
@@ -57,20 +50,12 @@ public class StringUtilsTestUnit {
 
     @Test
     public void testIsNullOrBlankOK() {
-        // Test the case that the input is NULL
         String input = null;
-
         assertTrue(StringUtils.isNullOrBlank(input));
-        // Java 8 Lambdas Style
         assertTrue(StringUtils.isNullOrBlank(input), () -> "The string is not null or blank");
-
-        // Test case with the input is empty
         input = " ";
         assertTrue(StringUtils.isNullOrBlank(input));
-
-        // Test case with the input is not empty
         input = "abc";
-
         assertFalse(StringUtils.isNullOrBlank(input));
 
     }
@@ -121,7 +106,7 @@ public class StringUtilsTestUnit {
         String st1 = "Hello";
         String st2 = "World";
         String st3 = null;
-        String expect = st1 + st2 +"4";
+        String expect = st1 + st2 ;
         String actual = StringUtils.concat(st1, st2, st3);
         assertEquals(expect, actual);
     }
